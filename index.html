@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Блог Романа Козаря - Главная</title>
+
+        <meta name="keywords">
+        <meta name="description">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="s3slider.css">
+
+        <!-- 
+         Connect JavaScript-libraries.
+         Connect libraries jQuery v1.3.2
+         Connect libraries, styles, scripts for the slider.
+        -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/s3Slider.js"></script>
+
+        <!--
+            Connecting the timer for java script slider. 
+            Set the time interval switch slides. 
+            At the moment of coding the interval is set to 1699 ms.
+        -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#slider').s3Slider({
+                    timeOut: 4300
+                });
+            });
+        </script>
+
+      <script type="text/javascript">
+
+          jQuery(document).ready(function() {
+            jQuery('body').append('<div class="button-up" style="display: none;opacity: 0.7;width: 157px;height:100%;position: fixed;right: 0px;top: 0px;cursor: pointer;text-align: center;line-height: 30px;color: #d3dbe4;font-weight: bold;">▲ Наверх</div>');
+          
+            jQuery (window).scroll (function () {
+              if (jQuery (this).scrollTop () > 100) {
+                jQuery ('.button-up').fadeIn();
+              } else {
+                jQuery ('.button-up').fadeOut();
+              }
+            });
+          
+            jQuery('.button-up').click(function(){
+              jQuery('body,html').animate({
+                scrollTop: 0
+              }, 800);
+              return false;
+            });
+          
+            jQuery('.button-up').hover(function() {
+              jQuery(this).animate({
+                'opacity':'1',
+              }).css({'background-color':'#EAEAEA','color':'#6a86a4'});
+            }, function(){
+              jQuery(this).animate({
+                'opacity':'0.7'
+              }).css({'background':'none','color':'#d3dbe4'});;
+            });
+          
+          });
+    </script>
+
+    </head>
+    
+    <body>
+        <!-- #header-->
+
+        <!-- begin of templatemo_wrapper -->
+        <div id="wrapper">
+
+           <!-- begin of templatemo_menu -->
+         <div id="menu">
+                
+                <ul>
+                    <li><a href="index.html" class="current">Мой блог</a></li>
+                    <li><a href="portfolio.html">Мои проекты</a></li>
+                    <li><a href="about.html">Обо мне</a></li>
+                </ul>
+
+            <!-- end of templatemo_menu -->
+            </div> 
+
+            <div id="left_column">
+    
+                <div id="header">
+        
+                    <div id="site_title">
+                        <h1>
+                            <a href="index.html"><strong>Блог</strong><span>Романа Козаря</span></a>
+                        </h1>
+                    <!-- end of site_title -->
+                    </div>
+                
+                <!-- end of #header -->
+                </div>   
+        
+            <div id="sidebar">
+            
+              <h4>Мои любимые...</h4>
+
+                <ul class="list">
+
+                    <li><a href="http://ru.wikipedia.org/wiki/Dream_Theater" target="_blank">Группа</a></li>
+                    <li><a href="http://ru.wikipedia.org/wiki/%D0%92%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D0%BB%D0%B8%D0%BD_%D0%BA%D0%BE%D0%BB%D0%B5%D1%86_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)" target="_blank">Фильм</a></li>
+                    <li><a href="http://ru.wikipedia.org/wiki/%D0%91%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F_%D0%A4%D1%91%D0%B4%D0%BE%D1%80%D0%B0_%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B8%D1%87%D0%B0_%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE" target="_blank">Книги</a></li>
+                    <li><a href="http://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%BD%D0%BD%D0%B8_%D0%94%D0%B5%D0%BF%D0%BF" target="_blank">Актер</a></li>
+                    <li><a href="http://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B8%D0%B2_%D0%94%D0%B6%D0%BE%D0%B1%D1%81" target="_blank">Знаменитая личность</a></li>
+
+                </ul>
+            
+            <h4>Песня моего дня.</h4>
+                <object height=57 width=260 title="Юлия Колочинская и Юрий Пехота - Посвящение лицею"><PARAM NAME="movie" value="http://flv-mp3.com/i/pic/ump3player_500x70.swf"><param name="wmode" value="transparent"><param name=FlashVars value="way=https://dl.dropboxusercontent.com/u/99218155/For%20%40valkleria/Pekhota_Yura_I_Kolochinskaya_Yulya_-_Posvyaschenie_Litseyu.mp3&amp;swf=http://flv-mp3.com/i/pic/ump3player_500x70.swf&amp;w=260&amp;h=57&amp;time_seconds=0&amp;autoplay=0&amp;q=&amp;skin=http://flv-mp3.com/files/skins/skin_wood.swf&amp;volume=70&amp;comment="><embed src="http://flv-mp3.com/i/pic/ump3player_500x70.swf" type="application/x-shockwave-flash" wmode="transparent"  flashvars="way=https://dl.dropboxusercontent.com/u/99218155/For%20%40valkleria/Pekhota_Yura_I_Kolochinskaya_Yulya_-_Posvyaschenie_Litseyu.mp3&amp;swf=http://flv-mp3.com/i/pic/ump3player_500x70.swf&amp;w=260&amp;h=57&amp;time_seconds=0&amp;autoplay=0&amp;q=&amp;skin=http://flv-mp3.com/files/skins/skin_wood.swf&amp;volume=70&amp;comment=" width="260" height="57"></embed></object>
+
+            <div class="cleaner_h40"></div>
+            
+              <h4>Мои аккаунты в социальных сетях</h4>
+
+                    <a href="https://twitter.com/pozitr0n1" target="_blank"><img src="images/twitter-32x32.png"></a>
+                    <a href="https://vk.com/pozitr0n" target="_blank"><img src="images/vkontakte.png"></a>
+                    <a href="https://fb.com/pozitr0n" target="_blank"><img src="images/facebook-32x32.png"></a>
+                    <a href="https://github.com/pozitr0n" target="_blank"><img src="images/github.png"></a>
+                    <a href="http://freelansim.ru/freelancers/pozitr0n" target="_blank"><img src="images/freelansim.png"></a>
+                    <a href="https://plus.google.com/u/0/108551671360810636587/posts" target="_blank"><img src="images/google-32x32.png"></a>
+                    <a href="https://foursquare.com/user/26779458" target="_blank"><img src="images/foursquare.png"></a>
+                    <a href="https://instagram.com/pozitr0n" target="_blank"><img src="images/instagram.png"></a>
+                    <a href="http://www.kinopoisk.ru/user/2967132/" target="_blank"><img src="images/kinopoisk.png"></a>
+
+
+        <!-- end of templatemo_sidebar -->     
+        </div> 
+
+    <!-- end of templatemo_left_column -->
+    </div> 
+    
+    <div id="right_column">
+    
+    	<div id="featured_project">
+
+            <div id="slider">
+
+                <ul id="sliderContent">
+
+                    <li class="sliderImage">
+                        <img src="images/slider/1.jpg" alt="Фотография 1"></a>
+                        <span class="top"><strong>Photo 1</strong><br>С любимым ФМ-ом встречаем рассвет! :) Как с вами было здорово, ребята..</span>
+                    </li>
+
+                    <li class="sliderImage">
+                        <img src="images/slider/4.jpg" alt="Фотография 2">
+                        <span class="right"><strong>Photo 2</strong><br>Не пересчесть количество работ, которые мы защищали с Мишаней :). Этот человек всегда мне помогает. Спасибо тебе :). Надеюсь, будем вместе учиться. </span>
+                    </li>
+
+                    <li class="sliderImage">
+                        <img src="images/slider/2.jpg" alt="Фотография 3"></a>
+                        <span class="bottom"><strong>Photo 3</strong><br>Как же я могу не сфотографироваться с человеком, который мне всегда помогает не только в верстке, но и во многом другом ;). Надеюсь, что будем дружить еще долго.. Спасибо тебе, Жень.</span>
+                    </li>
+
+                    <li class="sliderImage">
+                        <img src="images/slider/3.jpg" alt="Фотография 4">
+                        <span class="left"><strong>Photo 4</strong><br>А с этим человеком у меня связано так много, что не знаю даже, как это передать. Хоть и общаемся так недолго. Спасибо тебе, Лер, за все.</span>
+                    </li>
+
+                    <li class="sliderImage">
+                        <img src="images/slider/5.jpg" alt="Фотография 5">
+                        <span class="bottom"><strong>Photo 5</strong><br>А это мои любимые друзья :). Тут и МИ-шки, и ХБ-шки, и Экономисты, и конечно же ФМ :). А главное то, что мы с вами одна лицейская семья! ГГОЛ - ты лучший!</span>
+                    </li>
+
+                    <li class="clear sliderImage"></li>
+
+                    <!-- end of the #sliderImage -->
+                </ul>
+
+            </div>
+
+        </div>
+        
+        <!-- #Articles -->
+        <div id="main">
+
+            <div class="post_section">
+            
+                    <h2><a href="blog_post2.html">Вот и открылись ворота...</a></h2>
+                
+    
+                   Июнь 13, 2013 | <strong>Автор статьи:</strong> Роман Козарь | <strong>Категория: </strong>Жизнь</a>
+                
+                    <img src="images/image_03.jpg" alt="image 3">
+                
+                    <p>Мне уже многие говорили, что я так давненько не писал ничего сюда. Но я говорил, что как-то нет вдохновения что-либо писать..не о чем было писать. Я был приятно удивлен, что мой блог читают и ждут чего-нибудь новенького, и пообещал исправиться :).</p>
+                <a href="blog_post2.html">Читать далее...</a>
+                
+            </div>
+        
+        <div class="post_section">
+            
+                    <h2><a href="blog_post.html">Остаться...</a></h2>
+                
+    
+                   Март 25, 2013 | <strong>Автор статьи:</strong> Роман Козарь | <strong>Категория: </strong>Отношения</a>
+                
+                    <img src="images/image_01.jpg" alt="image 1">
+                
+                    <p>«Смерть забирает самых любимых, как секта, оставив нам города и проспекты…» Сегодня я начну так, как еще никогда не начинал… Я, пожалуй, начну с песни, которая уже как 4 месяца не выходит из моего ежедневного плейлиста.</p>
+                <a href="blog_post.html">Читать далее...</a>
+                
+            </div>
+
+            <div class="post_section">
+            
+                    <h2><a href="blog_post1.html">Три месяца – и все...</a></h2>
+                
+                    Февраль 24, 2012 | <strong>Автор статьи:</strong> Роман Козарь | <strong>Категория: </strong>Жизнь</a>
+                
+                    <img src="images/image_02.jpg" alt="image 2">
+                
+                    <p>Да, именно так я хочу начать. Ведь скоро уже выпускной... А что это значит? А это значит то, что все будет по-другому. И знаете, говорят, что жизнь в нынешнее время не идет, а летит.<br>
+                    <a href="blog_post1.html">Читать далее...</a>
+            
+            </div>
+                
+        
+		</div>
+    
+        <div class="cleaner"></div>
+        </div> 
+
+            <!-- end of templatemo_main -->
+        <div class="cleaner_h20"></div>
+    
+            <!-- begin of footer -->
+  	     <div id="footer">
+    
+		      <p>© Роман Козарь, 2012-2013</p>
+    
+            <!-- end of footer -->    
+            </div>
+  
+            <div class="cleaner"></div>
+
+        <!-- end of warpper -->
+        </div> 
+
+    </body>
+
+</html>
