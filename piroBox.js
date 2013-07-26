@@ -1,9 +1,12 @@
+//The script is for the animation of windows on the second page of the blog.
+
 (function($) {
   $.fn.piroBox = function(opt) {
 		opt = jQuery.extend({
 		my_speed : null,
 		close_speed : 300,
 		bg_alpha : 0.5,
+		//Assign a primary scrolling zero
 		scrollImage : null,
 		pirobox_next : 'piro_next_out',
 		pirobox_prev :  'piro_prev_out',
